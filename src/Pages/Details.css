@@ -1,0 +1,15 @@
+.detail-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 768px;
+  margin: auto;
+  padding-bottom: 80px;
+  padding-top: 0px;
+}
+
+.detail-txt {
+  margin: 0 20px;
+  text-align: center;
+}

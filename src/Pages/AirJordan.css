@@ -1,0 +1,46 @@
+.airjordan-img {
+  object-fit: cover;
+  width: 100%; /* Use 100% width to make the image responsive */
+  height: 100%; /* Use 100% height to make the image responsive */
+}
+
+.airjordan-grid {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+.airjordan-name {
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+
+.airjordan-container {
+  padding-bottom: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  text-decoration: none;
+  align-items: center;
+  margin: auto;
+}
+
+@media screen and (max-width: 950px) {
+  .airjordan-container {
+      padding-bottom: 100px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      grid-auto-rows: minmax(100px, auto);
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .airjordan-container {
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
