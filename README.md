@@ -1,7 +1,7 @@
 # TA-PPB-Shoes-Collection
 Aplikasi Koleksi Sepatu
 
-https://ta-ppb-shoes-collection.web.app/
+https://ta-ppb-shoes-collection.web.app
 
 # Getting Started with Create React App
 
