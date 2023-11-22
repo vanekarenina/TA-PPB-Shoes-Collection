@@ -1,4 +1,3 @@
-// App.js
 import React, { useState, useEffect } from 'react';
 import { Link, Routes, Route, useLocation, useNavigate } from 'react-router-dom';
 import About from './Pages/About';
@@ -66,6 +65,7 @@ function App() {
       </header>
       <div className="content" onClick={closeNav}>
         <Routes>
+          <Route path="/" element={<Home />} />
           <Route path="/Home" element={<Home />} />
           <Route path="/Puma" element={<Puma />} />
           <Route path="/Adidas" element={<Adidas />} />
